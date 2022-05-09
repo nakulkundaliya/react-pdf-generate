@@ -1,0 +1,46 @@
+export const dummyData = {
+  customerNo: '2345JBNFG',
+  customerName: 'CTA - Langlais Group Rep',
+  shippingAddress: '98 Carroll Road Waitsfield VT 05673 United States',
+  billingAddress: '98 Carroll Road Waitsfield VT 05673 United States',
+  invoiceCharges: [
+    { label: 'SUB-TOTAL', value: 200 },
+    { label: 'MISC CHARGES', value: 0 },
+    { label: 'FREIGHT', value: 2 },
+    { label: 'TAX', value: 2 },
+    { label: 'TOTAL', value: 2 },
+  ],
+  logisticInfo: [
+    { label: 'Terms', value: 'NET 30 DAYS' },
+    { label: 'Ship Date', value: '06/02/22' },
+    { label: 'Ship Via', value: 'BW-Best Way' },
+    { label: 'Freight Terms', value: 'CUST-PAY' },
+  ],
+  orderInfo: [
+    { label: 'Order', value: '5019129' },
+    { label: 'PO', value: '656969' },
+    { label: 'Date', value: '05/05/22' },
+    { label: 'Customer', value: 'CTA - Langlais Group Rep' },
+    { label: 'Account', value: '35 542' },
+  ],
+  items: [
+    {
+      itemNumber: 'CR-6208',
+      desc: '',
+      uom: '06/02/22',
+      balance: 'EA',
+      ordered: 3,
+      price: 72.55,
+      amount: 217.65,
+    },
+    {
+      itemNumber: 'RR-6208',
+      desc: '',
+      uom: '07/02/22',
+      balance: 'EA',
+      ordered: 7,
+      price: 72.55,
+      amount: 3445,
+    },
+  ],
+};
